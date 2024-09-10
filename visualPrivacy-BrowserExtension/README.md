@@ -9,7 +9,8 @@ The content-script and the service-worker communicate through chrome.runtime sta
 
 Download this folder, add a valid OpenAI key to the server-worker.js file and follow the instructions to install unpacked extensions [https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world] on a Chrome browser.
 
-## Flowchart  of Visual Privacy
+## Visual Privacy
+This is an overview of the browser extension functionality
 
 ![image](flowDiagram.png)
 
