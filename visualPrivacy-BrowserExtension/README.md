@@ -5,6 +5,10 @@ This is a Chrome Extension that searches for links with 'privacy' in the path. I
 
 The content-script and the service-worker communicate through chrome.runtime statusCodes
 
+## Try it out in Chrome
+
+Download this folder, add a valid OpenAI key to the server-worker.js file and follow the instructions to install unpacked extensions [https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world] on a Chrome browser.
+
 ## Service worker
 
 Status code:
