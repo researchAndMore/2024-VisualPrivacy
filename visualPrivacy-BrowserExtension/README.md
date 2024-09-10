@@ -11,7 +11,7 @@ Download this folder, add a valid OpenAI key to the server-worker.js file and fo
 
 ## Flowchart  of Visual Privacy
 
-![image](files://C:/Users/jzhang/Desktop/Isolated.png
+![image](flowDiagram.png)
 
 ## Service worker
 
