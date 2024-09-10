@@ -1,0 +1,70 @@
+{
+  "collection": {
+    "collection": {
+      "0": "Collects anonymous data",
+      "1": "Collects personal data",
+      "2": "Collects sensitive data"
+    },
+    "purpose": {
+      "0": "Used for functionality",
+      "1": "Used for customization",
+      "2": "Used for profiling"
+    },
+    "retention": {
+      "0": "Data is not stored",
+      "1": "Data is stored for pre-determined limited time",
+      "2": "Data is stored indefinitely"
+    }
+  },
+  "sharing": {
+    "sharing": {
+      "0": "No sharing",
+      "1": "Sharing anonymous user data",
+      "2": "Sharing user data"
+    },
+    "sale": {
+      "0": "No sale",
+      "1": "Sale of anonymous data",
+      "2": "Sale of user data"
+    },
+    "disclosure": {
+      "0": "Disclosure to local law enforcement (inside user's jurisdiction)",
+      "1": "Disclosure to local law enforcement (outside user's jurisdiction)",
+      "2": "Disclosure to foreign law enforcement"
+    }
+  },
+  "control": {
+    "control": {
+      "0": "Opt-in",
+      "1": "No Opt-in",
+      "2": "Opt-out"
+    },
+    "rightToBeForgotten": {
+      "0": "Deletion upon request",
+      "1": "Deletion upon hidden request",
+      "2": "Data cannot be removed"
+    },
+    "correctness": {
+      "0": "All data can be amended",
+      "1": "Some data can be amended",
+      "2": "Data cannot be amended"
+    }
+  },
+  "security": {
+    "security": {
+      "0": "Industry standard security",
+      "1": "Basic security",
+      "2": "No security"
+    },
+    "anonymization": {
+      "0": "Anonymous",
+      "1": "Partially anonymous",
+      "2": "Not anonymous"
+    },
+    "accountability": {
+      "0": "Legally accountable",
+      "1": "Legally binding privacy policy",
+      "2": "Not legally accountable"
+    }
+  }
+}

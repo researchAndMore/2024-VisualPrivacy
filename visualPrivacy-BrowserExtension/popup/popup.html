@@ -1,0 +1,297 @@
+<!-- popup window -->
+<style>
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<div id="visual-privacy-popup" class="w3-container w3-text-black" style="padding: 10px">
+    <button id="visual-privacy-toggle" class="w3-button w3-text-white w3-red w3-hover-white">X</button>
+
+    <!-- popup header -->
+    <!-- <div id="visual-privacy-header" class="w3-center">
+        <h3 class="w3-text-black">Visual Privacy</h3>
+    </div> -->
+
+    <!-- popup content -->
+    <div id="visual-privacy-content" class="w3-hide w3-center">
+        <!-- rating grade image -->
+        <div class="w3-row w3-center" style="margin: auto; width: 85%; padding-top: 10px; padding-bottom: 25px">
+            <img id="visual-privacy-rating-grade" style="width: 100%" />
+        </div>
+
+        <!-- scale -->
+        <div class="w3-row w3-container w3-center w3-margin-bottom" id="visual-privacy-scale">
+            <div id="scale-a" class="w3-col w3-border-black" style="width: 14.27%; background-color: rgb(86, 167, 91)">
+                <p>A</p>
+            </div>
+
+            <div
+                id="scale-b"
+                class="w3-col w3-border-black"
+                style="width: 14.27%; background-color: rgb(145, 210, 100)"
+            >
+                <p>B</p>
+            </div>
+
+            <div
+                id="scale-c"
+                class="w3-col w3-border-black"
+                style="width: 14.27%; background-color: rgb(200, 233, 138)"
+            >
+                <p>C</p>
+            </div>
+
+            <div
+                id="scale-d"
+                class="w3-col w3-border-black"
+                style="width: 14.27%; background-color: rgb(252, 239, 100)"
+            >
+                <p>D</p>
+            </div>
+
+            <div id="scale-e" class="w3-col w3-border-black" style="width: 14.27%; background-color: rgb(229, 178, 91)">
+                <p>E</p>
+            </div>
+
+            <div id="scale-f" class="w3-col w3-border-black" style="width: 14.27%; background-color: rgb(220, 115, 44)">
+                <p>F</p>
+            </div>
+
+            <div id="scale-g" class="w3-col w3-border-black" style="width: 14.27%; background-color: rgb(213, 60, 40)">
+                <p>G</p>
+            </div>
+        </div>
+
+        <!-- categories -->
+        <div class="w3-margin-bottom" id="visual-privacy-verbose">
+            <div class="w3-container">
+                <button
+                    id="privacyCollectionButton"
+                    class="w3-button"
+                    style="width: 100%; background-color: rgb(244, 244, 244)"
+                >
+                    > Collection
+                </button>
+                <div class="w3-hide w3-padding" id="privacyCollectionContent" style="width: 100%">
+                    <div id="collection-collection">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-collection" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-collection" class="w3-small" style="margin: 0px"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="collection-purpose">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-purpose" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-purpose" class="w3-small" style="margin: 0px"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="collection-Retention">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-retention" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-retention" class="w3-small" style="margin: 0px"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-container">
+                <button
+                    id="privacySharingButton"
+                    class="w3-button"
+                    style="width: 100%; background-color: rgb(244, 244, 244)"
+                >
+                    > Sharing
+                </button>
+                <div class="w3-hide w3-padding" id="privacySharingContent" style="width: 100%">
+                    <div id="sharing-sharing">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-sharing" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-sharing" class="w3-small" style="margin: 0px"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sharing-sale">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-sale" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-sale" class="w3-small" style="margin: 0px">Sale</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sharing-disclosure">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-disclosure" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-disclosure" class="w3-small" style="margin: 0px">Disclosure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-container">
+                <button
+                    id="privacyControlButton"
+                    class="w3-button"
+                    style="width: 100%; background-color: rgb(244, 244, 244)"
+                >
+                    > Control
+                </button>
+                <div class="w3-hide w3-padding" id="privacyControlContent" style="width: 100%">
+                    <div id="control-control">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-control" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-control" class="w3-small" style="margin: 0px">Control</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="control-right-to-be-forgotten">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-right-to-be-forgotten" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-rightToBeForgotten" class="w3-small" style="margin: 0px">
+                                    Right to be forgotten
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="control-correctness">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-correctness" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-correctness" class="w3-small" style="margin: 0px">Correctness</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-container">
+                <button
+                    id="privacySecurityButton"
+                    class="w3-button"
+                    style="width: 100%; background-color: rgb(244, 244, 244)"
+                >
+                    > Security
+                </button>
+
+                <div class="w3-hide w3-padding" id="privacySecurityContent" style="width: 100%">
+                    <div id="security-security">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-security" class="dot"></span></p>
+                            </div>
+                            <div class="w3-rest">
+                                <p id="subcategory-security" class="w3-small" style="margin: 0px">Security</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="security-anonymization">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px">
+                                    <span id="dot-anonymization" class="dot"></span>
+                                </p>
+                            </div>
+
+                            <div class="w3-rest">
+                                <p id="subcategory-anonymization" class="w3-small" style="margin: 0px">Anonymization</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="security-accountability">
+                        <div class="w3-row">
+                            <div class="w3-col" style="width: 10%">
+                                <p style="margin: 0px"><span id="dot-accountability" class="dot"></span></p>
+                            </div>
+
+                            <div class="w3-rest">
+                                <p id="subcategory-accountability" class="w3-small" style="margin: 0px">
+                                    Accountability
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- waiting content -->
+    <div id="visual-privacy-loading-content" class="w3-container w3-center w3-text-black w3-hide">
+        <div style="margin-bottom: 10px">evaluating the privacy policy of the website...</div>
+        <div
+            id="visual-privacy-loading"
+            style="
+                margin: auto;
+                border: 8px solid #f3f3f3;
+                border-radius: 50%;
+                border-top: 8px solid #3498db;
+                width: 60px;
+                height: 60px;
+                animation: spin 2s linear infinite;
+            "
+        ></div>
+    </div>
+    <div id="visual-privacy-error-content" class="w3-container w3-center w3-text-black w3-hide">
+        <div style="margin: auto; width: 20%">
+            <img id="error-image" style="margin-bottom: 10px" />
+        </div>
+        <div id="error-message">error while evaluating the privacy policy of the website</div>
+    </div>
+
+    <!-- form -->
+    <div id="visual-privacy-form" class="w3-padding w3-center w3-hide">
+        <form>
+            <label class="w3-text-black" for="privacy-link">Copy & paste the privacy Link: </label>
+            <input class="w3-border-black w3-white" type="text" id="privacy-link" name="privacy-link" />
+        </form>
+
+        <button
+            id="visual-privacy-form-button"
+            class="w3-button w3-margin-top w3-text-white w3-red w3-hover-white"
+            style="width: 80%"
+        >
+            Check
+        </button>
+    </div>
+</div>

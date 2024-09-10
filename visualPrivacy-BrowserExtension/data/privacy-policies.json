@@ -1,0 +1,777 @@
+{
+  "google": {
+    "grade": "C",
+    "counter": 9,
+    "gradeImg": "figures/PrivacyRatingC.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 0,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "sbb": {
+    "grade": "D",
+    "counter": 10,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "fitbit": {
+    "grade": "C",
+    "counter": 9,
+    "gradeImg": "figures/PrivacyRatingC.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "galaxus": {
+    "grade": "D",
+    "counter": 10,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "digitec": {
+    "grade": "D",
+    "counter": 10,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "melectronics": {
+    "grade": "D",
+    "counter": 10,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "amazon": {
+    "grade": "D",
+    "counter": 12,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 5,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 1,
+        "control_counter": 1,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 0,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "twitter": {
+    "grade": "D",
+    "counter": 12,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 5,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 1,
+        "control_counter": 1,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "bereal": {
+    "grade": "D",
+    "counter": 12,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 4,
+        "security_counter": 2,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "tiktok": {
+    "grade": "D",
+    "counter": 13,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 5,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 4,
+        "security_counter": 2,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "mastodon": {
+    "grade": "D",
+    "counter": 11,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 4,
+        "security_counter": 2,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "snapchat": {
+    "grade": "D",
+    "counter": 11,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 4,
+        "security_counter": 2,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "bsky": {
+    "grade": "D",
+    "counter": 11,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 4,
+        "security_counter": 2,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "bbc": {
+    "grade": "C",
+    "counter": 7,
+    "gradeImg": "figures/PrivacyRatingC.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 0,
+        "security_counter": 0,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "cnn": {
+    "grade": "D",
+    "counter": 13,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 5,
+        "collection_counter": 2,
+        "purpose_counter": 1,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 4,
+        "security_counter": 2,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "cnbc": {
+    "grade": "D",
+    "counter": 11,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 5,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "euronews": {
+    "grade": "C",
+    "counter": 9,
+    "gradeImg": "figures/PrivacyRatingC.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "reuters": {
+    "grade": "D",
+    "counter": 10,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 5,
+        "sharing_counter": 2,
+        "sale_counter": 1,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 1,
+        "control_counter": 1,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 0,
+        "security_counter": 0,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "watson": {
+    "grade": "C",
+    "counter": 8,
+    "gradeImg": "figures/PrivacyRatingC.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 3,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 1
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "nytimes": {
+    "grade": "D",
+    "counter": 11,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 5,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "washingtonpost": {
+    "grade": "D",
+    "counter": 12,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 4,
+        "security_counter": 2,
+        "anonymization_counter": 2,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "youtube": {
+    "grade": "D",
+    "counter": 10,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 4,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "threema": {
+    "grade": "C",
+    "counter": 9,
+    "gradeImg": "figures/PrivacyRatingC.png",
+    "categories": {
+      "collection": {
+        "counter": 3,
+        "collection_counter": 1,
+        "purpose_counter": 1,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 4,
+        "sharing_counter": 2,
+        "sale_counter": 1,
+        "disclosure_counter": 1
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "proton": {
+    "grade": "C",
+    "counter": 7,
+    "gradeImg": "figures/PrivacyRatingC.png",
+    "categories": {
+      "collection": {
+        "counter": 2,
+        "collection_counter": 1,
+        "purpose_counter": 0,
+        "retention_counter": 1
+      },
+      "sharing": {
+        "counter": 3,
+        "sharing_counter": 2,
+        "sale_counter": 0,
+        "disclosure_counter": 1
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 2,
+        "security_counter": 2,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  },
+  "linkedin": {
+    "grade": "D",
+    "counter": 10,
+    "gradeImg": "figures/PrivacyRatingD.png",
+    "categories": {
+      "collection": {
+        "counter": 5,
+        "collection_counter": 1,
+        "purpose_counter": 2,
+        "retention_counter": 2
+      },
+      "sharing": {
+        "counter": 5,
+        "sharing_counter": 2,
+        "sale_counter": 1,
+        "disclosure_counter": 2
+      },
+      "control": {
+        "counter": 0,
+        "control_counter": 0,
+        "rightToBeForgotten_counter": 0,
+        "correctness_counter": 0
+      },
+      "security": {
+        "counter": 0,
+        "security_counter": 0,
+        "anonymization_counter": 0,
+        "accountability_counter": 0
+      }
+    }
+  }
+}

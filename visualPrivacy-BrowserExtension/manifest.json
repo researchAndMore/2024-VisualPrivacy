@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Visual Privacy",
+    "version": "1.0",
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["activeTab", "tabs", "storage", "scripting"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content-script.js"],
+            "css": ["popup/popup.css", "data/w3.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "figures/IconError.png",
+                "figures/IconRefresh.png",
+                "figures/PrivacyRatingA.png",
+                "figures/PrivacyRatingB.png",
+                "figures/PrivacyRatingC.png",
+                "figures/PrivacyRatingD.png",
+                "figures/PrivacyRatingE.png",
+                "figures/PrivacyRatingF.png",
+                "figures/PrivacyRatingG.png"
+            ],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
